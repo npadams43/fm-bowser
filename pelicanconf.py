@@ -34,4 +34,9 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
-THEME=theme/attila
+# Tell Pelican to use the bare-bones "simple" theme
+THEME = 'simple'
+THEME_TEMPLATES_OVERRIDES = ['templates']
+
+# Define where your static files live
+STATIC_PATHS = ['images', 'css']
